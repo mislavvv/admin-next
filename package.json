@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3033",
-    "build": "next build",
-    "start": "next start",
+    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "start": "next start -p 3033",
     "lint": "next lint"
   },
   "dependencies": {
