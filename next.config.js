@@ -1,11 +1,11 @@
-import NextFederationPlugin from "@module-federation/nextjs-mf";
+const NextFederationPlugin = require("@module-federation/nextjs-mf");
 
-const nextConfig = {
+module.exports = {
   webpack(config, options) {
     if (!options.isServer) {
       config.plugins.push(
         new NextFederationPlugin({
-          name: "admin-next",
+          name: "adminNext",
           remotes: {},
           filename: "static/chunks/remoteEntry.js",
           exposes: {
@@ -25,5 +25,3 @@ const nextConfig = {
   // your original next.config.js export
   reactStrictMode: true,
 };
-
-export default nextConfig;
