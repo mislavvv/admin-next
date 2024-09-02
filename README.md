@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Proof of concepts on admin
+
+### react 18 admin / react 18 admin-next
+
+- admin branch name: `admin-next-testing-react18`
+- "working version"
+- some pages are not loading(?)
+- admin is running slower(?)
+
+### React 17 admin / react 18 admin-next
+
+- admin branch name: `admin-next-testing-inject`
+- admin-next exports inject function which will be mounted to an admin html element, which allows us to use multiple react version, thus acting as if we were to import a for example vue component into react
 
 ## Getting Started
 
