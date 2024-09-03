@@ -2,6 +2,7 @@
 
 ### react 18 admin / react 18 admin-next
 
+- (this) admin-next branch name: `master`
 - admin branch name: `admin-next-testing-react18`
 - "working version"
 - some pages are not loading(?)
@@ -9,6 +10,7 @@
 
 ### React 17 admin / react 18 admin-next
 
+- (this) admin-next branch name: `inject`
 - admin branch name: `admin-next-testing-inject`
 - admin-next exports inject function which will be mounted to an admin html element, which allows us to use multiple react version, thus acting as if we were to import a for example vue component into react
 

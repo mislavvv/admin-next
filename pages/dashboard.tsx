@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const dashboard = () => {
+const Dashboard = () => {
   return (
     <div>
       <h1>nextjs Dashboard</h1>
@@ -13,4 +13,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
