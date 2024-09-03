@@ -1,3 +1,6 @@
+// Source and explanation why this is done and how it works:
+// https://github.com/module-federation/module-federation-examples/tree/master/css-isolation
+
 // Define the types for the arrays and objects
 const styles: HTMLStyleElement[] = [];
 const containers: Record<string, HTMLElement> = {};
